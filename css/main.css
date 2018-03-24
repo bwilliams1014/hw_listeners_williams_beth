@@ -1,4 +1,6 @@
-
+body {
+	background-color: black;
+}
 
 img {
 	width: 95%;
@@ -9,3 +11,35 @@ img {
 	margin-right: auto;
 	margin-top: 40px;
 }
+
+p {
+	font-family: 'Muli', sans-serif;
+	color: #dbdbce;
+}
+
+a {
+	font-family: 'Muli', sans-serif;
+	color: #dbdbce;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 0.6em;
+}
+
+#damage {
+	
+	width: 95%;
+	max-width: 400px;
+	display: block;
+	margin: 20px auto;
+	background-color: #00458a;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 2px solid #dbdbce;
+	border-radius: 10px;
+}
+
+.emphasis {
+	font-weight: bold;
+	color: orange;
+}
+
