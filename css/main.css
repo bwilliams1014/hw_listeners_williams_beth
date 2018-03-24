@@ -26,7 +26,7 @@ a {
 }
 
 #damage {
-	
+
 	width: 95%;
 	max-width: 400px;
 	display: block;
@@ -36,6 +36,10 @@ a {
 	box-sizing: border-box;
 	border: 2px solid #dbdbce;
 	border-radius: 10px;
+}
+
+.visible {
+	visibility: visible;
 }
 
 .emphasis {
