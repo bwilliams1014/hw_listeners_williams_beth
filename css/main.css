@@ -5,4 +5,20 @@ body {
 .container {
 	width: 400px;
 	margin: 40px auto;
+	border: black;
+}
+
+form
+
+input[type=text], [type=email] {
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 12px;
+}
+
+textarea {
+	margin-top: 5px;
+	margin-bottom: 12px;
+	width: 300px;
+	height: 100px;
 }
