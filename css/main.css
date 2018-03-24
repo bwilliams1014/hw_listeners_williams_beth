@@ -1,19 +1,35 @@
 body {
-	background-color: #ffffcc
+	background-color:  #002266;
+
 }
 
 .container {
-	width: 400px;
+	width: 500px;
 	margin: 40px auto;
-	border: black;
 }
 
-form
+form {
+	background-color: #bfc8d9;
+	box-sizing: border-box;
+	padding: 30px;
+	border-radius: 4px;
+	border: solid #999999 2px;
+}
 
 input[type=text], [type=email] {
-	width: 300px;
+	width: 290px;
 	margin-top: 5px;
 	margin-bottom: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px;
+	border: solid #999999 2px;
+	border-radius: 4px;
+	outline: none;
+}
+
+input[type=text]:focus, [type=email]:focus {
+	border: 2px solid #cc00cc;
 }
 
 textarea {
@@ -21,4 +37,24 @@ textarea {
 	margin-bottom: 12px;
 	width: 300px;
 	height: 100px;
+	padding: 6px;
+	border: solid #999999 2px;
+	border-radius: 5px;
+	outline: none;
+}
+
+textarea:focus {
+	border: 2px solid #cc00cc;
+}
+
+input[type=submit] {
+	cursor: pointer;
+	border: solid #999999 2px;
+	border-radius: 3px;
+	outline: none;
+}
+
+input[type=submit]:hover {
+	background-color: #ffe6ff;
+	border: 2px solid #cc00cc;
 }
