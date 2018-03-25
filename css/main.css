@@ -7,6 +7,7 @@ h1, h2 {
 	font-family: 'Changa One', cursive;
 	font-size: 8vw;
 	text-align: center;
+	letter-spacing: 3px;
 }
 h2 {
 	
@@ -48,12 +49,11 @@ a {
 	border-radius: 10px;
 }
 
-.visible {
-	visibility: visible;
-}
-
 .emphasis {
 	font-weight: bold;
 	color: orange;
 }
 
+.red {
+	color: red;
+}
