@@ -24,9 +24,10 @@ turnBack.addEventListener('mouseout', function() {
 	turnBack.className = turnBack;
 });
 
-//var popUpImage = document.getElementById('logo');
+var popUpImage = document.getElementsByTagName('h2')[0];
 
-//popUpImage.addEventListener('mouseover', function() {
-//	var newImage = document.createElement('img');
-//	newImage.innerHTML = '<img src="img/march-for-our-lives-washington.jpg"><p> huh </p>';
-//});
+popUpImage.addEventListener('click', function() {
+	var newImage = document.createElement('article');
+	newImage.innerHTML = '<article><img src="img/march-for-our-lives-washington.jpg"></article>';
+	document.getElementsByTagName('article')[1].appendChild(newImage);
+});

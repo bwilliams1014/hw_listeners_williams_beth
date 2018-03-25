@@ -8,14 +8,13 @@ h1, h2 {
 	font-size: 8vw;
 	text-align: center;
 	letter-spacing: 3px;
-}
-h2 {
-	
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 img {
 	width: 95%;
-	max-width: 600px;
+	max-width: 550px;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -37,12 +36,10 @@ a {
 }
 
 #damage {
-
 	width: 95%;
 	max-width: 600px;
 	display: block;
-	margin: 20px auto;
-
+	margin: 10px auto;
 }
 
 .emphasis {
