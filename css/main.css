@@ -12,7 +12,7 @@ h1, h2 {
 	margin-bottom: 5px;
 }
 
-img {
+#logo, article img {
 	width: 95%;
 	max-width: 550px;
 	height: auto;
@@ -21,6 +21,21 @@ img {
 	margin-right: auto;
 	margin-top: 20px;
 }
+
+.flex-container {
+	display: flex;
+	max-width: 550px;
+	margin: 20px auto 20px auto;
+}
+
+.flex-container img {
+	height: 50px;
+	width: auto;
+	margin: auto;
+
+}
+
+h
 
 #logo, h2, p {
 	cursor: pointer;
