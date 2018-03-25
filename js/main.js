@@ -1,3 +1,5 @@
+// paragraph is added to document when image is clicked
+
 var popUpParagraph = document.getElementById('logo');
 
 popUpParagraph.addEventListener('click', function() {
@@ -6,9 +8,25 @@ popUpParagraph.addEventListener('click', function() {
 		document.getElementsByTagName('main')[0].appendChild(newArticle);
 	});
 
+// headline text turns red when moused over
+
 var turnRed = document.getElementsByTagName('h1')[0];
 
 turnRed.addEventListener('mouseover', function() {
 	turnRed.className = 'red';
 });
 
+// headline text reverts to original color when moused out
+
+var turnBack = document.getElementsByTagName('h1')[0];
+
+turnBack.addEventListener('mouseout', function() {
+	turnBack.className = turnBack;
+});
+
+//var popUpImage = document.getElementById('logo');
+
+//popUpImage.addEventListener('mouseover', function() {
+//	var newImage = document.createElement('img');
+//	newImage.innerHTML = '<img src="img/march-for-our-lives-washington.jpg"><p> huh </p>';
+//});
