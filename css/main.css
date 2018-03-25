@@ -39,14 +39,10 @@ a {
 #damage {
 
 	width: 95%;
-	max-width: 400px;
+	max-width: 600px;
 	display: block;
 	margin: 20px auto;
-	background-color: #00458a;
-	padding: 10px;
-	box-sizing: border-box;
-	border: 2px solid #dbdbce;
-	border-radius: 10px;
+
 }
 
 .emphasis {
@@ -54,8 +50,8 @@ a {
 	color: orange;
 }
 
-.red {
-	color: red;
+.orange {
+	color: orange;
 }
 
 .turnBack {
