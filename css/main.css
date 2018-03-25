@@ -22,6 +22,10 @@ img {
 	margin-top: 20px;
 }
 
+#logo, h2, p {
+	cursor: pointer;
+}
+
 p {
 	font-family: 'Muli', sans-serif;
 	color: #dbdbce;
