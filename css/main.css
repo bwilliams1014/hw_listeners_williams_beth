@@ -32,10 +32,8 @@ h1, h2 {
 	height: 50px;
 	width: auto;
 	margin: auto;
-
+	padding: 1px;
 }
-
-h
 
 #logo, h2, p {
 	cursor: pointer;
@@ -72,4 +70,17 @@ a {
 
 .turnBack {
 	color: #dbdbce;
+}
+
+@media (min-width: 450px) {
+	.flex-container img {
+		height: 75px;
+		padding: 2px;
+	}
+}
+@media (min-width: 650px) {
+	.flex-container img {
+		height: 100px;
+		padding: 5px;
+	}
 }
